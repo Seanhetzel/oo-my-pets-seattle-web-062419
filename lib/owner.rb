@@ -43,5 +43,5 @@ class Owner
 
   def count
 
-  edn
+  end
 end
