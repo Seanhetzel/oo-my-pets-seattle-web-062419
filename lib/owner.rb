@@ -75,6 +75,7 @@ class Owner
     cats.each do |cat|
       cat.owner = nil
     end
+  end
   def list_pets
 
   end
