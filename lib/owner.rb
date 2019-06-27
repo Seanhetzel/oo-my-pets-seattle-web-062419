@@ -67,7 +67,7 @@ class Owner
     #self.dogs.each do |dog|
     #  dog.mood = "happy"
     @dogs.each do |dog|
-      dog.mood = "happy"
+      self.dog.mood = "happy"
     end
     @dogs
   end
