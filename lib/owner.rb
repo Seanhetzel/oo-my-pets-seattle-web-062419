@@ -39,9 +39,15 @@ class Owner
     @cats << Cat.new(name, cat)
   end
 
+  def buy_dog(name)
+    @dogs << Dog.new(name, dog)
+  end
+
   def cats
     @cats
   end
+
+
 
 
 
