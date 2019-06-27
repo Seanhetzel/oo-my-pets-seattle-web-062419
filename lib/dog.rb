@@ -15,4 +15,11 @@ class Dog
   def name
     @name
   end
+
+  def mood
+    @mood
+  end
+
+  def self.all? { |
+    |  }
 end
