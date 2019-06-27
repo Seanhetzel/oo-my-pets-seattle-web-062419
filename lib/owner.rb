@@ -22,4 +22,8 @@ class Owner
   def self.reset_all
     @@all = []
   end
+
+  def species
+    @species = species 
+  end
 end
