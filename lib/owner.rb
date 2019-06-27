@@ -34,11 +34,11 @@ class Owner
   end
 
   def buy_cat
-
+    Cat.new(name, cat)
   end
 
   def cats
-
+    
   end
 
 end
