@@ -13,13 +13,6 @@ class Dog
     @@all << self
   end
 
-  def name
-    @name
-  end
-
-  def mood
-    @mood
-  end
 
   def self.all
     @@all
