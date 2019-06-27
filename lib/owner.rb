@@ -41,7 +41,4 @@ class Owner
 
   end
 
-  def count
-
-  end
 end
