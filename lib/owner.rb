@@ -26,10 +26,6 @@ class Owner
     @@all = []
   end
 
-  def species
-    @species
-  end
-
   def say_species
     "I am a #{@species}."
   end
