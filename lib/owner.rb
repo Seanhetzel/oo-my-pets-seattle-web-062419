@@ -40,4 +40,8 @@ class Owner
   def cats
 
   end
+
+  def count
+
+  edn
 end
