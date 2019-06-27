@@ -7,7 +7,7 @@ class Cat
   def initialize(name, cat)
     @cat = cat
     @name = name
-    @mood = mood
+    @mood = "nervous"
     @@all << self
   end
 
