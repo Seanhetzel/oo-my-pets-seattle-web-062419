@@ -20,6 +20,7 @@ class Dog
     @mood
   end
 
-  def self.all? { |
-    |  }
+  def self.all
+    @@all 
+  end
 end
