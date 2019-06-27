@@ -76,7 +76,7 @@ class Owner
       cat.owner = nil
     end
   end
-  
+
   def list_pets
     "I have #{} dog(s), and #{} cat(s)."
   end
