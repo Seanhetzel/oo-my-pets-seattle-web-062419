@@ -39,6 +39,9 @@ class Owner
     @cats << Cat.new(name, cat)
   end
 
+  def cats
+
+  end
 
 
 end
