@@ -6,6 +6,7 @@ class Owner
   def initialize(name)
     @name = name
     @species = "human"
+    @cats = []
     @@all << self
   end
 
@@ -34,8 +35,7 @@ class Owner
   end
 
   def buy_cat
-    cats = []
-    cats << Cat.new(name, cat)
+    @cats << Cat.new(name, cat)
   end
 
 
