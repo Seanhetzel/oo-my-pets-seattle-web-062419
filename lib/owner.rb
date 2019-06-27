@@ -70,7 +70,7 @@ class Owner
       cat.mood = "nervous"
     end
     dogs.each do |dog|
-      dog.mood = "nervous"
+      dog.owner = nil
     end
     cats.each do |cat|
       cat.mood = "nervous"
