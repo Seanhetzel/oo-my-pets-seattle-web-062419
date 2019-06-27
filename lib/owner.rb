@@ -45,9 +45,8 @@ class Owner
   end
 
   def dogs
-    @dogs
-    #Dog.all.select do |dog|
-    #  dog.owner == self
+    Dog.all.select do |dog|
+      dog.owner == self
   end
 
   def walk_dogs
