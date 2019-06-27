@@ -1,10 +1,10 @@
-require_relative '../config/environment.rb'
+#require_relative '../config/environment.rb'
 
 class Owner
   # code goes here
-  #attr_reader :name
-  #attr_accessor :cat
-  #attr_accessor :dog
+  attr_reader :name
+  attr_accessor :cat
+  attr_accessor :dog
   attr_reader :species, :name
 
   @@all = []
