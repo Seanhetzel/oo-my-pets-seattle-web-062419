@@ -71,12 +71,12 @@ class Owner
     end
 
   end
-  dogs.each do |dog|
-    dog.mood = "nervous"
-  end
-  cats.each do |cat|
-    cat.mood = "nervous"
-  end
+    dogs.each do |dog|
+      dog.mood = "nervous"
+    end
+    cats.each do |cat|
+      cat.mood = "nervous"
+    end
   def list_pets
 
   end
