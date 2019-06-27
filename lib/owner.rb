@@ -62,7 +62,7 @@ class Owner
     end
   end
 
-  def sell_pets(pet)
+  def sell_pets
     pet.owner = nil
     pet.mood = "nervous"
   end
