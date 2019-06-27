@@ -4,7 +4,7 @@ class Dog
   attr_reader :name
   attr_accessor :mood
 
-  @@call = []
+  @@all = []
   def initialize(name, dog)
     @dog = dog
     @name = name
