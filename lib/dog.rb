@@ -1,3 +1,5 @@
+require_relative './environment.rb'
+
 class Dog
   # code goes here
 
