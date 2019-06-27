@@ -38,8 +38,6 @@ class Owner
     cats = []
   end
 
-  def cats
 
-  end
 
 end
