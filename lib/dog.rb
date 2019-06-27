@@ -1,9 +1,11 @@
 class Dog
   # code goes here
 
-  attr_accessor :name 
-  
-  def initialize(dog, name)
+  attr_reader :name
+  attr_accessor :mood
+
+  @@call = []
+  def initialize(name, dog)
     @dog = dog
     @name = name
   end
